@@ -1,0 +1,24 @@
+# Copy this file to config.toml and edit it.
+
+# API key for Gemini AI.
+# You can get one for free from https://aistudio.google.com/app/apikey
+gemini_apikey = "<gemini_apikey>"
+
+# Discord bot token. Create a discord application from
+# https://discord.com/developers/applications
+discord_token = "<discord_token>"
+
+# Get your API key from https://developer.riotgames.com/
+riot_apikey = "RGAPI-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+# Guilds to register the command
+guild_ids = []
+
+# Players whose matches will be processed.
+[[players]]
+summoner_name = "Hide on Bush"
+discord_name = "faker"
+
+[[players]]
+summoner_name = "Hide on Bush #2"
+discord_name = "faker2"

@@ -1,0 +1,22 @@
+[package]
+name = "whobad"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.80"
+chrono = "0.4.34"
+dotenv = "0.15.0"
+futures = "0.3.30"
+poise = "0.6.1"
+reqwest = { version = "0.11.24", features = ["json"] }
+riven = "2.33.1"
+serde = "1.0.197"
+serde_json = "1.0.114"
+serenity = { version = "0.12.0", features = ["framework"] }
+tokio = { version = "1.36.0", features = ["rt-multi-thread"] }
+toml = "0.8.10"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
